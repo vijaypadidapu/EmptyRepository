@@ -37,6 +37,8 @@ public class MultiBrowserFbLogin {
 		driver1.findElement(By.id("pass")).sendKeys(Password);
 
 		driver1.findElement(By.id("loginbutton")).click();
+		
+		//login button login
 
 		// Internet Explorer Browser
 		System.setProperty("webdriver.ie.driver", "C:\\Users\\Vijay Krishna\\Desktop\\MicrosoftWebDriver.exe");
